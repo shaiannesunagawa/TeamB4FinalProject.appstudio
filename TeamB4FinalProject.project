@@ -83,6 +83,40 @@
             "savesData",
             "savesData.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "CUMap",
+            "CUMap.json"
+          ]
+        },
+        {
+          "!type": "Code",
+          "cached_js": null,
+          "cached_js_script_hash": null,
+          "children": [],
+          "expanded_pmp": null,
+          "id": "style_copy_css",
+          "language": "Other",
+          "loadType": "",
+          "obfuscate": "false",
+          "script": "",
+          "src": "style copy.css"
+        },
+        {
+          "!type": "Code",
+          "cached_js": null,
+          "cached_js_script_hash": null,
+          "children": [],
+          "expanded_pmp": null,
+          "id": "JSCode_copy_js",
+          "language": "JavaScript",
+          "loadType": "",
+          "obfuscate": "false",
+          "script": "",
+          "src": "JSCode copy.js"
         }
       ],
       "configxml": null,
