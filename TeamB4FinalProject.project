@@ -75,6 +75,14 @@
             "welcomePage",
             "welcomePage.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "savesData",
+            "savesData.json"
+          ]
         }
       ],
       "configxml": null,
