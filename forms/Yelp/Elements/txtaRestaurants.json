@@ -29,7 +29,7 @@
   "iconTitle": "",
   "id": "txtaRestaurants",
   "inputmode": "",
-  "left": 7,
+  "left": 34,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -70,13 +70,13 @@
   "readonly": "",
   "required": "",
   "right": "auto",
-  "rows": "",
+  "rows": "10",
   "script": "",
   "spellcheck": "true",
   "style": "",
-  "top": 185,
+  "top": 184,
   "validation": "",
   "value": "",
   "valueCols": 10,
-  "width": "auto"
+  "width": "240"
 }
