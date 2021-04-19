@@ -91,3 +91,7 @@ drpCategorySearch.onclick=function(s){
             }
         }
 }
+
+imgHome.onclick=function(){
+  ChangeForm(welcomePage)
+}
