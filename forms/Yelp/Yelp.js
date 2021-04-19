@@ -67,7 +67,7 @@ btnSeeThai.onclick=function(){
 }
 */
 Yelp.onshow=function(s){
-    txtaRestaurants.style.height = '100px'
+    txtaRestaurants_contents.style.height = "100px"
     drpCategorySearch.clear()   
     callAPI(requestURL)
     categories = categories.sort()
@@ -85,7 +85,7 @@ drpCategorySearch.onclick=function(s){
         txtaRestaurants.value = message
         for (i = 0; i < apiData.businesses.length; i++){
             if (apiData.businesses[i].categories[0].title == searchItem) {
-                message = message + apiData.businesses[i].name + ', ' + apiData.businesses[i].rating + ', ' + apiData.businesses[i].price + ', ' + apiData.businesses[i].location.address1 + ', ' + apiData.businesses[i].location.city + ', ' + apiData.businesses[i].location.zip_code + ', ' + apiData.businesses[i].display_phone + "\n"
+                message = message + apiData.businesses[i].name + ', Rating: ' + apiData.businesses[i].rating + ', ' + apiData.businesses[i].location.address1 + ', ' + apiData.businesses[i].location.city + ', ' + apiData.businesses[i].location.zip_code + ', ' + apiData.businesses[i].display_phone + "\n"
                 txtaRestaurants.value = message
             }
             }
