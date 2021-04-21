@@ -90,6 +90,15 @@
         "Elements",
         "inptCurrent.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "savesData",
+        "Elements",
+        "imgBackHome.json"
+      ]
     }
   ],
   "class": "",

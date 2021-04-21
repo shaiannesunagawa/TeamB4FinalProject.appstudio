@@ -24,3 +24,6 @@ btnAdd.onclick = function() {
     } else
         lblMessage.value = "Error: " + req.status
 }
+imgBackHome.onclick=function(){
+    ChangeForm(welcomePage)
+}

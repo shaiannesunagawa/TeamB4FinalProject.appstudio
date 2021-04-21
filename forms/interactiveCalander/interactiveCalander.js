@@ -31,3 +31,6 @@ Changes to make to use in project:
    > change the color from blue to something else
    > get it to center on the phone without dragging it to center
 */
+imgReturnHome.onclick=function(){
+    ChangeForm(welcomePage)
+}
