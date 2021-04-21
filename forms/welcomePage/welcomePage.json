@@ -16,7 +16,7 @@
         "forms",
         "welcomePage",
         "Elements",
-        "Hamburger1.json"
+        "hmbrNav.json"
       ]
     },
     {
@@ -25,7 +25,7 @@
         "forms",
         "welcomePage",
         "Elements",
-        "Label1.json"
+        "lblTitle.json"
       ]
     },
     {
@@ -43,7 +43,7 @@
         "forms",
         "welcomePage",
         "Elements",
-        "Label2.json"
+        "lblWelcomeMessage.json"
       ]
     }
   ],
